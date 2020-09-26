@@ -1,0 +1,51 @@
+body {
+    --color-main: #e53935;
+    --color-main-dark: #c62828;
+    --color-background-2: #F5F5F5;
+    --color-background-3: #E0E0E0;
+}
+
+.navbar {
+    background-color: var(--color-main);
+    color: white;
+}
+
+.navbar a {
+    color: white;
+}
+
+.home-container {
+    margin: 40px;
+}
+
+.home-container .title {
+    border-radius: 8px 8px 0 0;
+    background-color: var(--color-main);
+    color: white;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+.home-container .info {
+    padding: 30px;
+    background-color: var(--color-background-2);
+    border-radius: 0 0 8px 8px;
+}
+.commands {
+}
+
+.commands .commands-buttons .btn {
+    background-color: var(--color-main);
+    color: white;
+    transition: 0.1s;
+}
+
+.commands .commands-buttons .btn:hover {
+    background-color: var(--color-main-dark);
+}
+
+.last-command {
+    background-color: var(--color-background-3);
+    border-radius: 4px;
+    padding: 10px;
+}

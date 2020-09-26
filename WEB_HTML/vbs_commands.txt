@@ -1,0 +1,40 @@
+WshShell.Run "chrome -url https://dev.agconnect.org/HelloBrook/": WScript.Sleep 2000: WshShell.SendKeys "{F11}"
+
+Dim SpeechObject: Set SpeechObject=CreateObject("sapi.spvoice"): SpeechObject.speak ""
+
+
+WshShell.Run "chrome -url https://www.livechatinc.com/typing-speed-test/#/"
+
+Dim x: x = 0: Do While x < 101: WScript.Sleep 100: WshShell.Run "%windir%\notepad.exe": WshShell.AppActivate "Notepad": WScript.Sleep 500: WshShell.SendKeys "where is kenny? where is kenny? where is kenny? where is kenny? where is kenny? where is kenny? ": x = x + 1: Loop
+
+WshShell.Run "%windir%\notepad.exe": WshShell.AppActivate "Notepad": WScript.Sleep 500: WshShell.SendKeys "I must speak with Thomas immediately."
+
+Dim SpeechObject: Set SpeechObject=CreateObject("sapi.spvoice"): SpeechObject.speak "I weigh 3000 pounds. I can go from 0 to 60 in 30 seconds. You have no chance. Ha ha ha ha"
+
+Dim x: x = 0: Do While x < 120: WScript.Sleep 100: WshShell.SendKeys "%{TAB}": x = x + 1: Loop
+
+WshShell.Run "%windir%\notepad.exe": WshShell.AppActivate "Notepad": WScript.Sleep 500: WshShell.SendKeys "Hello Brook. There are earbuds plugged into your computer. Put them in your ears, I need to talk to you."
+
+Dim x: x = 0: Do While x < 10: WScript.Sleep 100: WshShell.Run("calc.exe"): x = x + 1: Loop
+
+WshShell.Run("calc.exe")
+
+Dim x: x = 0: Do While x < 100: WScript.Sleep 100: WshShell.SendKeys "{CAPSLOCK}": x = x + 1: Loop
+
+WshShell.Run "%windir%\notepad.exe": WshShell.AppActivate "Notepad":
+
+WshShell.SendKeys "{CAPSLOCK}"
+
+Set oWMP = CreateObject("WMPlayer.OCX.7" ): Set colCDROMs = oWMP.cdromCollection: If colCDROMs.Count >= 1 Then: For i = 0 to colCDROMs.Count - 1: colCDROMs.Item(i).Eject: Next
+
+For Each d in CreateObject("Scripting.FileSystemObject").Drives: WScript.Sleep 60: If d.DriveType = 4 Then CreateObject("Shell.Application").Namespace(17).ParseName(d.DriveLetter &amp; \:").InvokeVerb("Eject"): End If
+
+MsgBox "Sophos has detected that you have accessed an unauthorized application. Your supervisor JEN CHARTER has been notified.", 64, "Sophos Message Centre"
+
+MsgBox "aurthy is a bitch"
+
+
+
+
+
+Dim x: x = 0: Do While x < 20: WScript.Sleep 100: WshShell.SendKeys "+{ }": x = x + 1: Loop

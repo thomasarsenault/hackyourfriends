@@ -1,0 +1,100 @@
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/index.css">
+    <title>Hack Your Friends</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, height=device-height">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">Hack Your Friends</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="home-container">
+        <div class="title">
+            Status
+        </div>
+        <div class="info">
+            Running
+        </div>
+    </div>
+      <div class="commands home-container">
+          <div class="title">
+              Execute Commands
+          </div>
+          <div class="info">
+          <div class="commands-buttons">
+            <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn command-button" type="button" id="msgBox">Message Box</button>
+                </div>
+                <input type="text" class="form-control" id="msgBox-input" placeholder="Message">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn command-button" type="button" id="notepad">Open Notepad</button>
+                </div>
+                <input type="text" class="form-control" id="notepad-input" placeholder="Message">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn command-button" type="button" id="chrome">Open Chrome</button>
+                </div>
+                <input type="text" class="form-control" id="chrome-input" placeholder="URL">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn command-button" type="button" id="speech">Speech to Text</button>
+                </div>
+                <input type="text" class="form-control" id="speech-input" placeholder="Message">
+              </div>
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <button class="btn command-button" type="button" id="key">Enter Key</button>
+                </div>
+                <input type="text" class="form-control" id="key-input" placeholder="Key">
+              </div>
+          </div>
+          </div>
+        </div>
+        <div class="home-container">
+            <div class="title">
+                Last Command
+            </div>
+            <div class="info">
+                <div class="last-command" id="last-command">
+
+                </div>
+            </div>
+        </div>
+
+
+      
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <!-- <script src="/__/firebase/7.8.1/firebase-app.js"></script> -->
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <!-- <script src="/__/firebase/7.8.1/firebase-analytics.js"></script> -->
+
+    <!-- Initialize Firebase -->
+    <!-- <script src="/__/firebase/init.js"></script> -->
+</body>
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="js/main.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
